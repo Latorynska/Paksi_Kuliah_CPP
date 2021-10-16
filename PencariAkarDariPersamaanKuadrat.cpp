@@ -41,15 +41,17 @@ main(){
 		ket = "Akar-Akar Bilangan Riil Berbeda";
 	}
 	else if( D < 0){
-		x1 = -B/2*A + (sqrt((4*A*C) - (B*B))/2*A);
-		x2 = -B/2*A - (sqrt((4*A*C) - (B*B))/2*A);
+		//x1 = -B/2*A + (sqrt((4*A*C) - (B*B))/2*A);
+		//x2 = -B/2*A - (sqrt((4*A*C) - (B*B))/2*A);
 		ket = "Akar-Akar Bilangan merupakan bilangan imajiner";
 	}
 	
 	//output hasil dengan catatan yang diperlukan
 	cout<<"\nHasilnya Adalah : "<<endl;
-	cout<<"x1 = "<<x1<<endl;
-	cout<<"x2 = "<<x2<<endl;
+	if( D >= 0){
+		cout<<"x1 = "<<x1<<endl;
+		cout<<"x2 = "<<x2<<endl;
+	}
 	cout<<"Catatan : "<<ket;
 	
 	//akhir program

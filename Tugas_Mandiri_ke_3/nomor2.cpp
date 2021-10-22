@@ -66,7 +66,7 @@ main(){
 	}
 	cout.precision(10); // agar angka ditampilkan secara presisi maksimal 10 digit
 	cout<<setw(40)<<left<<"Gaji Pokok"<<" : "<<gapok<<endl;
-	cout<<setw(40)<<left<<"Bonus Tunjangan"<<" : "<<biaya_tnj;
+	cout<<setw(40)<<left<<"Bonus Tunjangan"<<" : "<<biaya_tnj<<endl;
 	cout<<setw(40)<<left<<"Gaji AKhir"<<" : "<<gapok + biaya_tnj;
 	
 		/* Ditulis dan dirancang oleh Paksi R G*/

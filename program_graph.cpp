@@ -49,6 +49,7 @@ void add_node(){
 		bantu->next = baru;
 	}
 	cout<<"Simpul berhasil ditambahkan!\n\n";
+	system("pause");
 }
 
 node *search_node(string targeted_nama){
@@ -118,18 +119,15 @@ void generate_sisi(){
 			}
 			else{
 				int i = 0;
-				gen_sisi_restart:
 				while(i < jml_sisi){
 					if(add_sisi(node_target)) i++;
 					else{
 						cout<<"\n\nSisi gagal ditambahkan!\n\n";
 						char x;
 						cout<<"ingin berhenti menambah sisi? (y/n) : ";cin>>x;cin.ignore();
-						if(x != 'y' || x != 'Y') {
-							i--;
-							goto gen_sisi_restart;
+						if(x == 'y' || x == 'Y') {
+							break;
 						}
-						else break;
 					}
 				}
 			}
@@ -181,7 +179,6 @@ bool is_connected(){
 			main_cluster[0] = bantu;
 			main_cluster_count++;
 			for(int i = 0; i < main_cluster[0]->sisi_count; i++){
-				int index_buffer = 0;
 				cluster_input(main_cluster,main_cluster_count,checked,checked_count,bantu);
 			}
 		}

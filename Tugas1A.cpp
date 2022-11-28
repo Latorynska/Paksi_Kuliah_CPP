@@ -7,7 +7,7 @@ main(){
 	
 	//deklarasi
 	char nama[50],alamat[255]; //variabel untuk nama dan alamat pegawai
-	double gaji_pokok,tunjangan, pajak, gaji_bersih; //variabel untuk input dan pengolahan gaji pegawai
+	int gaji_pokok,tunjangan, pajak, gaji_bersih; //variabel untuk input dan pengolahan gaji pegawai
 	
 	//proses input data
 	cout<<"Masukkan Nama       : "; gets(nama);

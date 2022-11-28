@@ -2,11 +2,8 @@
 #include <iomanip>
 #include <conio.h>
 using namespace std;
-
 //function dibawah adalah proses perhitungan
-int tambah(float x, float y){
-	return x+y;
-}
+int tambah(float x, float y){ return x+y; }
 int kurang(float x, float y){
 	return x - y;
 }
@@ -16,14 +13,12 @@ int kali(float x, float y){
 int bagi(float x, float y){
 	return x / y;
 }
-
 //function dibawah untuk input angka
 float OptInp(string x){
 	float a;
 	cout<<"Masukkan Bilangan "<<x<<" : ";cin>>a;
 	return a;
 }
-
 //function dibawah untuk menampilkan menu sekaligus input opsi menu
 char mainmenu(){
 	char plhn;
@@ -37,7 +32,6 @@ char mainmenu(){
 	cin>>plhn;
 	return plhn;
 }
-
 //prosedur dibawah adalah untuk pengoperasian
 void pertambahan(float x, float y){
 	cout<<"Hasil pertambahan dari "<<x<<" dan "<<y<<" adalah "<<tambah(x,y)<<endl;

@@ -1,0 +1,7 @@
+Nama                      : Paksi Ringkang Gumilang Atmaja Nugraha
+NPM                       : 5520121069
+Prodi                     : Teknik Informatika
+Tempat, tanggal lahir     : Cianjur, 09 Juni 2002
+Usia                      : 19
+Jenis Kelamin             : Laki-Laki
+Golongan Darah            : A
